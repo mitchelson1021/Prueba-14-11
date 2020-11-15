@@ -1,0 +1,130 @@
+:root {
+    --mora: #660066;
+    --hr: #373A3C;
+}
+
+body {
+    font-family: 'open-sans', sans-serif;
+}
+
+nav {
+    background-color: var(--mora);
+    font-family: Helvetica, sans-serif;
+}
+
+nav h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5rem;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+header {
+    background-image: url('../img/Foto_logo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 1rem;
+    height: 35rem;
+    margin-top: 60px;
+}
+
+.nombre {
+    font-weight: 700;
+}
+
+.titulo {
+    font-weight: 700;
+    font-size: 3.25em;
+}
+
+.separacion {
+    padding-top: 30%;
+}
+
+@media (max-width: 720px) {
+    .separacion {
+        padding-top: 40%;
+    }
+}
+
+@media (max-width: 540px) {
+    .separacion {
+        padding-top: 70%;
+    }
+}
+
+header hr {
+    height: 2px;
+    width: 348px;
+    background-color: white;
+}
+
+.white {
+    background-color: white;
+}
+
+#contenido h4 {
+    font-family: 'open-sans', sans-serif;
+    font-weight: 700;
+    line-height: 2.5em;
+}
+
+#parrafos p {
+    font-family: 'open-sans', sans-serif;
+    font-weight: 400;
+    line-height: 2.5em;
+}
+
+hr {
+    height: 2px;
+    width: 7.18em;
+    background-color: var(--hr);
+}
+
+section i {
+    font-size: 150px;
+    color: var(--mora);
+    margin-top: 15px;
+}
+
+.icolorwhite {
+    font-size: 50px;
+    color: white;
+}
+
+.bg-color-mora {
+    background: var(--mora);
+}
+
+.zoom:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+h5+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+#contacto {
+    height: 40em;
+}
+
+#contacto h1 {
+    margin-top: 3em;
+}
+
+.footermargin {
+    height: 13em;
+    padding-top: 5em;
+}
